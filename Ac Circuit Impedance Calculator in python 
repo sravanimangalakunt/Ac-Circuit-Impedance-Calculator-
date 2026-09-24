@@ -1,0 +1,20 @@
+AC Circuit Impedance Calculator
+
+import math
+
+print("AC Circuit Impedance Calculator")
+print("--------------------------------")
+
+R = float(input("Enter Resistance R (Ω): "))
+X = float(input("Enter Reactance X (Ω): "))
+
+Impedance magnitude
+
+Z = math.sqrt(R2 + X2)
+
+Phase angle
+
+angle = math.degrees(math.atan2(X, R))
+
+print("Impedance =", round(Z, 2), "Ω")
+print("Phase Angle =", round(angle, 2), "degrees")
